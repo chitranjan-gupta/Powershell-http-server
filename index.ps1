@@ -1,5 +1,5 @@
 $port = 8000
-$root = "E:\Ref\ngrok"
+$root = "E:\Ref\ngrok" #Replace with the location where you have the script file
 
 $listener = New-Object System.Net.HttpListener
 $listener.Prefixes.Add("http://localhost:$port/")
